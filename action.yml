@@ -1,0 +1,8 @@
+# action.yml
+name: 'Greet Dev'
+
+description: 'Welcome Developer upon commiting to the repo'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
